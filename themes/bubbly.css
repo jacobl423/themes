@@ -1,19 +1,17 @@
 html {
-    --theme-my-bubble-color: #58347c;
+    --theme-my-bubble-color: #0B84FF;
     --theme-accent-color: #a675d8;
     --theme-their-bubble-color: #efefef;
     --theme-chat-background-color: #FFFFFF;
-    --theme-chat-background-image: url("https://imjosh.in/images/beeper/bubbly-bg-light.png");
-
+    --font-family: -apple-system, BlinkMacSystemFont, sans-serif
     --theme-borderwidth: 0;
-    --theme-borderradius: 13px;
-    --theme-bubble-padding-v: 8px;
+    --theme-borderradius: 10px;
+    --theme-bubble-padding-v: 1px;
     --theme-bubble-padding-h: 12px;
 
 
 
     --chatview__backgroundcolor: var(--theme-chat-background-color);
-    --chatview__backgroundimage: var(--theme-chat-background-image);
 
     --chatview__fontsize: 2.2rem;
     --chatview__lineheight: var(--chatview__fontsize);
@@ -25,10 +23,11 @@ html {
 
     --chatview__message_group__margintop: 12px;
 
-    --chatview__message_tail__opacity: 1;
+    --chatview__message_tail__opacity: 100;
     --chatview__message_tail__color: var(--theme-their-bubble-color);
     --chatview__message__backgroundcolor: var(--theme-their-bubble-color);
     --chatview__message__fontcolor: #141414;
+    --chatview__message__fontfamily: --comic-sans;
 
     --chatview__message__paddingleft: var(--theme-bubble-padding-h);
     --chatview__message__paddingright: var(--theme-bubble-padding-h);
@@ -51,7 +50,6 @@ html {
 html[theme="dark"] {
     --theme-their-bubble-color: #232326;
     --theme-chat-background-color: #0f0f0f;
-    --theme-chat-background-image: url("https://imjosh.in/images/beeper/bubbly-bg-dark.png");
 
 
 
